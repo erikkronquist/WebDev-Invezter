@@ -1,6 +1,7 @@
 function logFirebaseData() {
     firebase.initialize({
-        projectName: "testCaseThree"
+        projectName: "testCaseThree",
+        ownerID: 'ebjtsxpdgb'
     });
     
     let database = firebase.database();
